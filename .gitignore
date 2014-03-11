@@ -1,0 +1,5 @@
+# Unnecessarty images
+!images/
+
+images/todo/
+!images/todo/*
