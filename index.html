@@ -11,27 +11,32 @@
 </head>
 <body>
 
-  <!-- ================================== Main Page ========================== -->
+  <!-- ============================== Main Page ========================== -->
   <div data-role="page" id="page_main">
-    <div data-role="panel" id="myPanel">
-      <h2>Nawigacja</h2>
-      <ul>
-        <li><a href="#page_mission">Misja</a></li>
-        <li><a href="#page_courses">Kierunki</a></li>
-        <li><a href="#page_schedule">Plan zajęć</a></li>
-        <li><a href="#page_opinions">Opinie</a></li>
-        <li><a href="#page_gallery">Galeria</a></li>
-        <li><a href="#page_cotact">Kontakt</a></li>
-      </ul>
+    <div data-role="panel" id="myPanel" data-display="reveal">
+      <h2>Menu</h2>
+      <a href="#page_main" class="ui-btn ui-icon-home ui-btn-icon-left ui-btn-active">Home</a></li>
+      <a href="#page_mission" class="ui-btn ui-icon-star ui-btn-icon-left">Misja</a></li>
+      <a href="#page_courses" class="ui-btn ui-icon-bars ui-btn-icon-left">Kierunki</a>
+      <a href="#page_schedule" class="ui-btn ui-icon-calendar ui-btn-icon-left">Plan zajęć</a>
+      <a href="#page_opinions" class="ui-btn ui-icon-user ui-btn-icon-left">Opinie</a>
+      <a href="#page_gallery" class="ui-btn ui-icon-camera ui-btn-icon-left">Galeria</a>
+      <a href="#page_contact" class="ui-btn ui-icon-mail ui-btn-icon-left">Kontakt</a>
     </div>
 
     <div data-role="header">
       <h1>UEK</h1>
-      <a href="#myPanel" class="ui-btn ui-btn-inline ui-mini">Menu</a>
+      <a href="#myPanel" class="ui-btn ui-corner-all ui-icon-grid ui-btn-icon-notext">Menu</a>
+      <a href="#page_main" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext">Home page</a>
     </div>
 
-    <div data-role="main" class="ui-content">
-      <p>Welcome! If you click on the link below, it will take you to Page Two.</p>
+    <div data-role="main" class="ui-content" style="text-align:center;">
+      <img src="images/logo-uek-mini.png" alt="Logo Uniwersyteru Ekonomicznego w Krakowie" style="max-width: 100%; height:auto;" />
+      <ul>
+        <li>Dokończyć aplikacje zgodnie z wymaganiami</li>
+        <li>Zrobić kolorki > <a href="http://themeroller.jquerymobile.com/">http://themeroller.jquerymobile.com/</a></li>
+        <li>Wygenerować modele apikacji dla Androida, iOS, Windows Phone - <a href="http://build.phonegap.com">build.phonegap.com</a></li>
+      </ul>
     </div>
 
     <div data-role="footer">
@@ -39,15 +44,27 @@
     </div>
   </div>
 
-  <!-- ================================== Mission ========================== -->
+  <!-- ============================== Mission ========================== -->
   <div data-role="page" id="page_mission">
+    <div data-role="panel" id="myPanel" data-display="reveal">
+      <h2>Menu</h2>
+      <a href="#page_main" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+      <a href="#page_mission" class="ui-btn ui-icon-star ui-btn-icon-left ui-btn-active">Misja</a>
+      <a href="#page_courses" class="ui-btn ui-icon-bars ui-btn-icon-left">Kierunki</a>
+      <a href="#page_schedule" class="ui-btn ui-icon-calendar ui-btn-icon-left">Plan zajęć</a>
+      <a href="#page_opinions" class="ui-btn ui-icon-user ui-btn-icon-left">Opinie</a>
+      <a href="#page_gallery" class="ui-btn ui-icon-camera ui-btn-icon-left">Galeria</a>
+      <a href="#page_contact" class="ui-btn ui-icon-mail ui-btn-icon-left">Kontakt</a>
+    </div>
+
     <div data-role="header">
       <h1>Misja</h1>
-      <a href="#page_main" class="ui-btn ui-btn-inline ui-mini">Home page</a>
+      <a href="#myPanel" class="ui-btn ui-corner-all ui-icon-grid ui-btn-icon-notext">Menu</a>
+      <a href="#page_main" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext">Home page</a>
     </div>
 
     <div data-role="main" class="ui-content">
-      <h3>"Rerum cognoscere causas et valorem ..."</h3>
+      <h4>"Rerum cognoscere causas et valorem ..."</h4>
 
       <p>Poznawać przyczyny i wartości rzeczy<br/>
       Dać uniwersalne wykształcenie,<br/>
@@ -60,33 +77,52 @@
     </div>
   </div>
 
-  <!-- ================================== Courses ========================== -->
+  <!-- ============================== Courses ========================== -->
   <div data-role="page" id="page_courses">
+    <div data-role="panel" id="myPanel" data-display="reveal">
+      <h2>Menu</h2>
+      <a href="#page_main" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a></li>
+      <a href="#page_mission" class="ui-btn ui-icon-star ui-btn-icon-left">Misja</a></li>
+      <a href="#page_courses" class="ui-btn ui-icon-bars ui-btn-icon-left ui-btn-active">Kierunki</a>
+      <a href="#page_schedule" class="ui-btn ui-icon-calendar ui-btn-icon-left">Plan zajęć</a>
+      <a href="#page_opinions" class="ui-btn ui-icon-user ui-btn-icon-left">Opinie</a>
+      <a href="#page_gallery" class="ui-btn ui-icon-camera ui-btn-icon-left">Galeria</a>
+      <a href="#page_contact" class="ui-btn ui-icon-mail ui-btn-icon-left">Kontakt</a>
+    </div>
+
     <div data-role="header">
-      <h1>Misja</h1>
-      <a href="#page_main" class="ui-btn ui-btn-inline ui-mini">Home page</a>
+      <h1>Kierunki</h1>
+      <a href="#myPanel" class="ui-btn ui-corner-all ui-icon-grid ui-btn-icon-notext">Menu</a>
+      <a href="#page_main" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext">Home page</a>
     </div>
 
     <div data-role="main" class="ui-content">
-      <h2>Wydziały oraz ich kierunki</h2>
       <ul data-role="listview" data-inset="true">
         <li data-role="list-divider">Wydział Ekonomii i Stosunków Międzynarodowych</li>
         <li><a href="#">Administracja</a></li>
         <li><a href="#">Ekonomia</a></li>
         <li><a href="#">Europeistyka</a></li>
+        <li><a href="#">Gospodarka i Administracja Publiczna</a></li>
+        <li><a href="#">Międzynarodowe Stosunki Gospodarcze</a></li>
         <li><a href="#">Socjologia</a></li>
+        <li><a href="#">Stosunki Międzynarodowe</a></li>
 
         <li data-role="list-divider">Wydział Finansów</li>
-        <li><a href="#">India</a></li>
-        <li><a href="#">Thailand</a></li>
+        <li><a href="#">Finanse i rachunkowość</a></li>
+        <li><a href="#">Gospodarka przestrzenna</a></li>
 
         <li data-role="list-divider">Wydział Towaroznawstwa</li>
-        <li><a href="#">Zimbabwe</a></li>
-        <li><a href="#">Uganda</a></li>
+        <li><a href="#">Towaroznawstwo </a></li>
+        <li><a href="#">Zarządzanie i inżynieria produkcji</a></li>
 
         <li data-role="list-divider">Wydział Zarządzania</li>
-        <li><a href="#">Zimbabwe</a></li>
-        <li><a href="#">Uganda</a></li>
+        <li><a href="#">Analityka gospodarcza</a></li>
+        <li><a href="#">Informatyka i ekonometria</a></li>
+        <li><a href="#">Informatyka stosowana</a></li>
+        <li><a href="#">Marketing i komunikacja rynkowa</a></li>
+        <li><a href="#">Rachunkowość i kontrolling</a></li>
+        <li><a href="#">Turystyka i rekreacja</a></li>
+        <li><a href="#">Zarządzanie</a></li>
       </ul>
     </div>
 
@@ -95,34 +131,216 @@
     </div>
   </div>
 
-  <!-- ================================== Schedule ========================== -->
+  <!-- ============================= Schedule ========================== -->
   <div data-role="page" id="page_schedule">
+    <div data-role="panel" id="myPanel" data-display="reveal">
+      <h2>Menu</h2>
+      <a href="#page_main" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a></li>
+      <a href="#page_mission" class="ui-btn ui-icon-star ui-btn-icon-left">Misja</a></li>
+      <a href="#page_courses" class="ui-btn ui-icon-bars ui-btn-icon-left">Kierunki</a>
+      <a href="#page_schedule" class="ui-btn ui-icon-calendar ui-btn-icon-left ui-btn-active">Plan zajęć</a>
+      <a href="#page_opinions" class="ui-btn ui-icon-user ui-btn-icon-left">Opinie</a>
+      <a href="#page_gallery" class="ui-btn ui-icon-camera ui-btn-icon-left">Galeria</a>
+      <a href="#page_contact" class="ui-btn ui-icon-mail ui-btn-icon-left">Kontakt</a>
+    </div>
+
     <div data-role="header">
-      <h1>Schedule</h1>
-      <a href="#page_main" class="ui-btn ui-btn-inline ui-mini">Home page</a>
+      <h1>Plan zajęć</h1>
+      <a href="#myPanel" class="ui-btn ui-corner-all ui-icon-grid ui-btn-icon-notext">Menu</a>
+      <a href="#page_main" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext">Home page</a>
     </div>
 
     <div data-role="main" class="ui-content">
-      <h2>Wydziały oraz ich kierunki</h2>
-      <ul data-role="listview" data-inset="true">
-        <li data-role="list-divider">Wydział Ekonomii i Stosunków Międzynarodowych</li>
-        <li><a href="#">Administracja</a></li>
-        <li><a href="#">Ekonomia</a></li>
-        <li><a href="#">Europeistyka</a></li>
-        <li><a href="#">Socjologia</a></li>
+      <h2>KrZUIs2011</h2>
+      <table data-role="table" data-mode="columntoggle" class="ui-responsive" id="myTable">
+        <thead>
+          <tr>
+            <th data-priority="5">Termin</th>
+            <th>Dzień, godzina</th>
+            <th data-priority="1">Przedmiot</th>
+            <th data-priority="2">Typ</th>
+            <th data-priority="3">Nauczyciel</th>
+            <th data-priority="4">Sala</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2014-03-08</td>
+            <td>Sb 09:35 - 12:05</td>
+            <td>Metody optymalizacji procesów</td>
+            <td>wykład</td>
+            <td>prof. UEK Paweł Lula</td>
+            <td>Paw.B 451</td>
+          </tr>
+          <tr>
+            <td>2014-03-08</td>
+            <td>Sb 12:15 - 14:45</td>
+            <td>Pracownia projektowa</td>
+            <td>ćwiczenia</td>
+            <td>dr Paweł Wołoszyn</td>
+            <td>Paw.A 117 lab. Vista,Office07</td>
+          </tr>
+          <tr>
+            <td>2014-03-08</td>
+            <td>Nd 10:30 - 13:00</td>
+            <td>Marketing i handel elektroniczny</td>
+            <td>wykład</td>
+            <td>dr Mariusz Kuziak</td>
+            <td>Bibl. 443</td>
+          </tr>
+          <tr>
+            <td>2014-03-08</td>
+            <td>Nd 13:05 - 15:35</td>
+            <td>Marketing i handel elektroniczny</td>
+            <td>ćwiczenia</td>
+            <td>dr Mariusz Kuziak</td>
+            <td>Bibl. 442</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-        <li data-role="list-divider">Wydział Finansów</li>
-        <li><a href="#">India</a></li>
-        <li><a href="#">Thailand</a></li>
+    <div data-role="footer">
+      <h1>Uniwersytet Ekonomiczny w Krakowie</h1>
+    </div>
+  </div>
 
-        <li data-role="list-divider">Wydział Towaroznawstwa</li>
-        <li><a href="#">Zimbabwe</a></li>
-        <li><a href="#">Uganda</a></li>
 
-        <li data-role="list-divider">Wydział Zarządzania</li>
-        <li><a href="#">Zimbabwe</a></li>
-        <li><a href="#">Uganda</a></li>
-      </ul>
+  <!-- ============================== Opinions ========================== -->
+  <div data-role="page" id="page_opinions">
+    <div data-role="panel" id="myPanel" data-display="reveal">
+      <h2>Menu</h2>
+      <a href="#page_main" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a></li>
+      <a href="#page_mission" class="ui-btn ui-icon-star ui-btn-icon-left">Misja</a></li>
+      <a href="#page_courses" class="ui-btn ui-icon-bars ui-btn-icon-left">Kierunki</a>
+      <a href="#page_schedule" class="ui-btn ui-icon-calendar ui-btn-icon-left">Plan zajęć</a>
+      <a href="#page_opinions" class="ui-btn ui-icon-user ui-btn-icon-left ui-btn-active">Opinie</a>
+      <a href="#page_gallery" class="ui-btn ui-icon-camera ui-btn-icon-left">Galeria</a>
+      <a href="#page_contact" class="ui-btn ui-icon-mail ui-btn-icon-left">Kontakt</a>
+    </div>
+
+    <div data-role="header">
+      <h1>Opinie</h1>
+      <a href="#myPanel" class="ui-btn ui-corner-all ui-icon-grid ui-btn-icon-notext">Menu</a>
+      <a href="#page_main" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext">Home page</a>
+    </div>
+
+    <div data-role="main" class="ui-content">
+      <form method="post" action="demoform.asp">
+        <fieldset data-role="controlgroup" data-type="horizontal">
+          <legend>Płeć:</legend>
+            <label for="male">Mężczyzna</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">Kobieta</label>
+            <input type="radio" name="gender" id="female" value="female">
+        </fieldset>
+
+        <div class="ui-field-contain">
+          <label for="age">Wiek:</label>
+          <input type="text" name="age" id="age" data-clear-btn="true" placeholder="np: 24"/>
+        </div>
+
+        <div class="ui-field-contain">
+          <label for="bday">Data rozpoczęcia studiów:</label>
+          <input type="date" name="bday" id="bday" />
+        </div>
+
+        <fieldset class="ui-field-contain">
+          <label for="day">Kierunek studiów:</label>
+          <select name="day" id="day" data-native-menu="false">
+            <option value="">Administracja</option>
+            <option value="">Ekonomia</option>
+            <option value="">Europeistyka</option>
+            <option value="">Gospodarka i Administracja Publiczna</option>
+            <option value="">Międzynarodowe Stosunki Gospodarcze</option>
+            <option value="">Socjologia</option>
+            <option value="">Stosunki Międzynarodowe</option>
+
+            <option value="">Gospodarka przestrzenna</option>
+            <option value="">Finanse i rachunkowość</option>
+
+            <option value="">Towaroznawstwo</option>
+            <option value="">Zarządzanie i inżynieria produkcji</option>
+
+            <option value="">Analityka gospodarcza</option>
+            <option value="">Informatyka i ekonometria</option>
+            <option value="">Informatyka stosowana</option>
+            <option value="">Marketing i komunikacja rynkowa</option>
+            <option value="">Rachunkowość i kontrolling</option>
+            <option value="">Turystyka i rekreacja</option>
+            <option value="">Zarządzanie</option>
+          </select>
+        </fieldset>
+
+        <div class="ui-field-contain">
+          <label for="info">Opinia o UEK</label>
+          <textarea name="addinfo" id="info" placeholder="Napisz własną opinię o UEK"></textarea>
+        </div>
+        <input type="submit" data-inline="true" value="Wyślij">
+      </form>
+    </div>
+
+    <div data-role="footer">
+      <h1>Uniwersytet Ekonomiczny w Krakowie</h1>
+    </div>
+  </div>
+
+
+  <!-- ============================== Gallery ========================== -->
+  <div data-role="page" id="page_gallery">
+    <div data-role="panel" id="myPanel" data-display="reveal">
+      <h2>Menu</h2>
+      <a href="#page_main" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a></li>
+      <a href="#page_mission" class="ui-btn ui-icon-star ui-btn-icon-left">Misja</a></li>
+      <a href="#page_courses" class="ui-btn ui-icon-bars ui-btn-icon-left">Kierunki</a>
+      <a href="#page_schedule" class="ui-btn ui-icon-calendar ui-btn-icon-left">Plan zajęć</a>
+      <a href="#page_opinions" class="ui-btn ui-icon-user ui-btn-icon-left">Opinie</a>
+      <a href="#page_gallery" class="ui-btn ui-icon-camera ui-btn-icon-left ui-btn-active">Galeria</a>
+      <a href="#page_contact" class="ui-btn ui-icon-mail ui-btn-icon-left">Kontakt</a>
+    </div>
+
+    <div data-role="header">
+      <h1>Galeria</h1>
+      <a href="#myPanel" class="ui-btn ui-corner-all ui-icon-grid ui-btn-icon-notext">Menu</a>
+      <a href="#page_main" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext">Home page</a>
+    </div>
+
+    <div data-role="main" class="ui-content">
+      <img src="images/" alt="" />
+    </div>
+
+    <div data-role="footer">
+      <h1>Uniwersytet Ekonomiczny w Krakowie</h1>
+    </div>
+  </div>
+
+
+  <!-- ============================== Contact ========================== -->
+  <div data-role="page" id="page_contact">
+    <div data-role="panel" id="myPanel" data-display="reveal">
+      <h2>Menu</h2>
+      <a href="#page_main" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a></li>
+      <a href="#page_mission" class="ui-btn ui-icon-star ui-btn-icon-left">Misja</a></li>
+      <a href="#page_courses" class="ui-btn ui-icon-bars ui-btn-icon-left">Kierunki</a>
+      <a href="#page_schedule" class="ui-btn ui-icon-calendar ui-btn-icon-left">Plan zajęć</a>
+      <a href="#page_opinions" class="ui-btn ui-icon-user ui-btn-icon-left">Opinie</a>
+      <a href="#page_gallery" class="ui-btn ui-icon-camera ui-btn-icon-left">Galeria</a>
+      <a href="#page_contact" class="ui-btn ui-icon-mail ui-btn-icon-left ui-btn-active">Kontakt</a>
+    </div>
+
+    <div data-role="header">
+      <h1>Kontakt</h1>
+      <a href="#myPanel" class="ui-btn ui-corner-all ui-icon-grid ui-btn-icon-notext">Menu</a>
+      <a href="#page_main" class="ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext">Home page</a>
+    </div>
+
+    <div data-role="main" class="ui-content">
+    <h3>Adres do korespondencji:</h3>
+    <p>Uniwersytet Ekonomiczny w Krakowie<br/>
+      ul. Rakowicka 27<br />
+      31-510 Kraków</p>
+    <p>Tel.: (012) 293 5700 lub (012) 293 5200 </p>
+    <p>E-mail: <a href="mailto:kancelaria@uek.krakow.pl" title="Napisz do Nas wiadomość">kancelaria@uek.krakow.pl</a></p>
     </div>
 
     <div data-role="footer">
