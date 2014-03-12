@@ -1,14 +1,17 @@
 /*
  *  Dodatkowe style do projektu jQuery Mobile
  */
+.ui-field-contain {
+  border-bottom: none;
+}
 
 .ui-content img {
   height:auto;
   max-width: 100%;
 }
 
-.ui-field-contain {
-  border-bottom: none;
+#page_main img {
+  padding-top: 30px;
 }
 
 #page_gallery .ui-content h1,h2,h3,h4,h5,h6 {
@@ -19,7 +22,6 @@
   padding-top: 0px;
   margin-top: 0px;
 }
-
 
 #page_gallery .ui-content img {
   float: left;
