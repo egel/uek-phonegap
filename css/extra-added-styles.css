@@ -7,6 +7,10 @@
   max-width: 100%;
 }
 
+.ui-field-contain {
+  border-bottom: none;
+}
+
 #page_gallery .ui-content h1,h2,h3,h4,h5,h6 {
   padding-top: 20px;
   clear: both;
