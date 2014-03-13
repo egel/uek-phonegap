@@ -27,6 +27,12 @@ git clone git@github.com:egel/uek_stal_zai_zadanie_1.git
   5. Korzystając z usługi ‘Phonegap Build’ - [build.phonegap.com](http://build.phonegap.com), utwórz natywną wersję aplikacji dla systemu operacyjnego Android.
   6. Umieść wszystkie pliki wchodzące w skład aplikacji (apk, html, css, itd.) w archiwum ZIP o nazwie `TwojeNazwiskoImie-UEK.zip`, a następnie prześlij plik ZIP na platformę Moodle do oceny.
 
+### Wsparcie
+
+  - [W3School](http://www.w3schools.com/jquerymobile/jquerymobile_examples.asp) jQuery Mobile examples
+  - WAŻNE - Zanim projekt zostanie przekompilowany do aplikacji mobilnej, warto sprawdzić go odpowiednim [validatorem](http://validator.w3.org/#validate_by_input) udostępnionemu dzięki konsorcjum **W3C**, aby pozbyć się potencjalnych błędów w działaniu aplikacji.
+
+
 ### Phonegap Build
 
 Dzięki usłudze [build.phonegap.com](http://build.phonegap.com) można w bardzo przyjemny sposób połaczyć niniejsze repozytorium z usługą.
@@ -41,9 +47,6 @@ Wystarczy:
     - konfigurację (zalecana powyżej v3.0.0)
     - opis
   - A następnie zbudować aplikację
-
-### W3C Validator
-Zanim projekt zostanie przekompilowany do aplikacji mobilnej, warto sprawdzić go odpowiednim [validatorem](http://validator.w3.org/#validate_by_input) udostępnionemu dzięki konsorcjum **W3C**, aby pozbyć się potencjalnych błędów w działaniu aplikacji.
 
 ## License
 Oprogramowanie na licencji [GNU AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html)
