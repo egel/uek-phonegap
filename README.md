@@ -1,7 +1,12 @@
 # Zaawansowane Aplikacje Internetowe
 
 ## Zadanie 1
-Zbudowanie aplikacji w oparciu o HTML5 + CSS + JavaScript. Wykońać do tego skórkę na postawie [http://themeroller.jquerymobile.com/](http://themeroller.jquerymobile.com/) oraz zbudować apikację na urządzenia mobilne dzięki usłudze [Phonegap Build](http://build.phonegap.com).
+Zbudowanie aplikacji w oparciu o HTML5 + CSS + JavaScript.
+
+Wykońać do tego:
+
+  - skórkę na postawie [http://themeroller.jquerymobile.com/](http://themeroller.jquerymobile.com/),
+  - zbudować apikację na urządzenia mobilne dzięki usłudze [Phonegap Build](http://build.phonegap.com).
 
 ### Instalacja
 
@@ -36,6 +41,9 @@ Wystarczy:
     - konfigurację (zalecana powyżej v3.0.0)
     - opis
   - A następnie zbudować aplikację
+
+### W3C Validator
+Zanim projekt zostanie przekompilowany do aplikacji mobilnej, warto sprawdzić go odpowiednim [validatorem](http://validator.w3.org/#validate_by_input) udostępnionemu dzięki konsorcjum **W3C**, aby pozbyć się potencjalnych błędów w działaniu aplikacji.
 
 ## License
 Oprogramowanie na licencji [GNU AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html)
