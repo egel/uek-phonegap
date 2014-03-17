@@ -1,6 +1,7 @@
-# Zaawansowane Aplikacje Internetowe
+# UEK Phonegap
+> Aplikacja tworzona na zajęcia z Zaawansowanych Aplikacji Internetowych w oparciu o technologię Phonegap oraz jQuery mobile
 
-## Zadanie 1
+## Zadanie
 Zbudowanie aplikacji w oparciu o HTML5 + CSS + JavaScript.
 
 Wykońać do tego:
