@@ -23,9 +23,14 @@ git clone git@github.com:egel/uek_stal_zai_zadanie_1.git
   1. Wykonaj aplikację ‘UEK’ zgodnie z podaną treścią zadania.
   2. Dodaj do menu aplikacji pozycję ‘Autor’.
   3. Dodaj do aplikacji ekran ‘Autor’, na którym wyświetl swoje dane personalne: imię i nazwisko, nr albumu, nr grupy dziekańskiej.
-  4. Utwórz motyw dla aplikacji, w którym zdefiniuj kolory - [http://themeroller.jquerymobile.com/](http://themeroller.jquerymobile.com/) -  dla poszczególnych jej elementów (napisy, tła, nagłówki, stopki, elementy formularza, itd.)
-  5. Korzystając z usługi ‘Phonegap Build’ - [build.phonegap.com](http://build.phonegap.com), utwórz natywną wersję aplikacji dla systemu operacyjnego Android.
-  6. Umieść wszystkie pliki wchodzące w skład aplikacji (apk, html, css, itd.) w archiwum ZIP o nazwie `TwojeNazwiskoImie-UEK.zip`, a następnie prześlij plik ZIP na platformę Moodle do oceny.
+  4. Utwórz motyw dla aplikacji, w którym zdefiniuj kolory dla poszczególnych jej elementów (napisy, tła, nagłówki, stopki, elementy formularza, itd.)
+  5. Utwórz plik konfiguracyjny aplikacji „config.xml”, w którym określ nazwę oraz nr wersji aplikacji, wprowadź jej krótki opis, oraz wprowadź dane personalne autora aplikacji (imię i nazwisko). Szczegóły znajdziesz pod adresem: [http://docs.build.phonegap.com/en_US/3.1.0/configuring_basics.md.html#The%20Basics](http://docs.build.phonegap.com/en_US/3.1.0/configuring_basics.md.html#The%20Basics)
+  6. Zaprojektuj i dodaj do aplikacji ikonę. Przygotuj zestaw ikon w zależności od wielkości ekranu urządzenia mobilnego. Do utworzenia wielu ikon możesz wykorzystać poniższą usługę. Umieść ikony w odpowiednim folderze. Zmodyfikuj plik konfiguracyjny „config.xml”. [http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html](http://android-ui-utils.googlecode.com/hg/asset-studio/dist/index.html)
+  7. Zaprojektuj i dodaj do aplikacji „splash screen”. Przygotuj różne wersje ekranu startowego w zależności od wielkości ekranu urządzenia mobilnego. Do jego utworzenia możesz również wykorzystać powyższą usługę. Zmodyfikuj plik konfiguracyjny „config.xml”.
+  8. Wprowadź zmiany w pliku konfiguracyjnym, aby w serwisie Phonegap Build tworzona była tylko wersja aplikacji dla systemu operacyjnego Android. Wprowadź zmiany w pliku konfiguracyjnym.
+  9. Korzystając z usługi ‘Phonegap Build’, utwórz natywną wersję aplikacji dla systemu operacyjnego Android.
+  10. Umieść wszystkie pliki wchodzące w skład aplikacji (apk, html, css, itd.) w archiwum ZIP o nazwie TwojeNazwiskoImie-UEK.zip a następnie prześlij plik ZIP na platformę Moodle do oceny.
+
 
 ### Wsparcie
 
