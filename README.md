@@ -4,11 +4,11 @@
 ## Instalacja
 
  - Pobrać plik `.zip`
- - lub użyć git'a
+ - lub użyć Git'a
 
 ```bash
-cd /path/to/your/folder/
-git clone git@github.com:egel/uek_stal_zai_zadanie_1.git
+$ cd /path/to/your/folder/
+$ git clone git@github.com:egel/uek-phonegap.git
 ```
 
 ## Zadanie
@@ -92,7 +92,7 @@ Dzięki usłudze [build.phonegap.com](http://build.phonegap.com) można w bardzo
 
 Wystarczy:
 
-  - Podać URL do repozytorium (usługa rozpoznaje tylko gałąć master) np.:`https://github.com/egel/uek_stal_zai_zadanie_1/`,
+  - Podać URL do repozytorium (usługa rozpoznaje tylko gałąć master) np.:`https://github.com/egel/uek-phonegap`,
   - Skonfigurować aplikację dołączając:
     - tytuł,
     - opis,
